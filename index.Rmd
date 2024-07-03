@@ -1,0 +1,36 @@
+---
+title: "SpeedGoat Software User Manual"
+author: "Speedgoat"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output:
+  bookdown::gitbook:
+    split_by: section
+  bookdown::pdf_book:
+    latex_engine: pdflatex
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "Documentation for SpeedGoat Software"
+---
+
+# Introduction
+
+This manual is a support document for SpeedGoat Software, which was created to streamline the process of running population models including [IPM](#ipm), [Sightability](#sight), and [Survival](#surv), as well as a framework for uploading survey [data](#de). You may notice that some of the tools that are documented here are not available on your version of the software. This is because your agency may not be using all of the tools that Speedgoat has to offer. Also, please note that each agency may collect and use different data, so your agency will have seperate data and model documentation that walks through agency specific data processing steps and custom models.
+
+At the top right of your page is a help toolbar. From left to right, the question mark brings you to the Speedgoat homepage, the little bug icon allows you to send a bug report to the speedgoat team, the lightbulb icon allows you to send the team an idea you have for a new feature, the broadcast symbol is a link to the speedgoat blog, and the lifering gives direct contact information for Josh and Paul.
+
+<center>![](./www/index_walk1.png)</center>
+
+Each tool has its own chapter, which includes an Overview, a Walkthrough, and a Reference page for each separate section within the tools. The Overview gives a general description of what a tool is and how it works, as well as hypothetical use cases for the tool. The Walkthrough is a step-by-step guide which explains how to load data and generate analyses with each tool. The Reference page gives a more detailed explanation of each page, as well as how to navigate the various menus.
+
+Words that are [<b>green and bold</b>](#gl){style="color: #086e04;"} can be found in our glossary section at the end of the book, and words that are [<b>blue and bold</b>]{style="color: #196eb0;"} denote icon labels.
+
+This manual was created by [Speedgoat](https://www.speedgoat.io) using [bookdown](https://bookdown.org/).
+
+Feedback and suggestions for improving the user manual are welcome at [josh.nowak@speedgoat.io](mailto:josh.nowak@speedgoat.io?&subject=PopR%20Documentation%20Feedback).
+
+To get started with SpeedGoat Software, visit the [Speedgoat homepage](https://www.speedgoat.io/) and select your agency from the login menu.
+
+<center>[![Logo](./www/spdgt_logo.png)](https://www.speedgoat.io)</center>
